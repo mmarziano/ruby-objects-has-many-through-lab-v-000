@@ -22,7 +22,9 @@ class Patient
   end 
   
   def doctors
-    
+    self.appointments.collect do |song|
+      song.doctor
+    end
   end
   
 end 
