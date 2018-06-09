@@ -22,8 +22,8 @@ class Patient
   end 
   
   def doctors
-    self.appointments.collect do |song|
-      song.doctor
+    self.appointments.collect do |doctor|
+      doctor.doctor
     end
   end
   
